@@ -1,0 +1,37 @@
+h1{
+    color:red;
+}
+
+div h1{
+    color: red;
+}
+
+div{
+    h1{
+        color: blue;
+    }
+}
+
+@mixin abc{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+
+.red-button{
+    @include abc;
+    background-color: red;
+}
+
+.green-button{
+    @include abc;
+    background-color: green;
+}
+
+.blue-button{
+    @include abc;
+    background-color: blue;
+}
+
+
+
