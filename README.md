@@ -11,6 +11,8 @@ git concepts
     -> merge conficts
     -> stash
     -> reset
+    -> cherrypick
+    -> amend
 
 ChatGPT
 Unit 
